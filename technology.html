@@ -38,30 +38,25 @@
   <main id="main" class="grid-container grid-container--technology flow">
     <h1 class="numbered-title"><span aria-hidden="true">03</span> Space launch 101</h1>
     
-    <picture id="moon-image">
+    <picture id="vehicle-image">
       <source media="(min-width:45em)" srcset="assets/technology/image-launch-vehicle-portrait.jpg" type="image/jpeg">
-      <img src="assets/technology/image-launch-vehicle-landscape.jpg" alt="the moon">
+      <img src="assets/technology/image-launch-vehicle-landscape.jpg" alt="launch vehicle">
     </picture>
-    <picture hidden id="mars-image">
-      <source srcset="assets/destination/image-mars.webp" type="image/webp">
-      <img src="assets/destination/image-mars.png" alt="the planet mars">
+    <picture hidden id="space-capsule">
+        <source media="(min-width:45em)" srcset="assets/technology/image-space-capsule-portrait.jpg" type="image/jpeg">
+        <img src="assets/technology/image-space-capsule-landscape.jpg" alt="launch vehicle">
     </picture>
-    <picture hidden id="europa-image">
-      <source srcset="assets/destination/image-europa.webp" type="image/webp">
-      <img src="assets/destination/image-europa.png" alt="the planet europa">
+    <picture hidden id="spaceport">
+        <source media="(min-width:45em)" srcset="assets/technology/image-lspaceport-portrait.jpg" type="image/jpeg">
+        <img src="assets/technology/image-lspaceport-landscape.jpg" alt="launch vehicle">
     </picture>
-    <picture hidden id="titan-image">
-      <source srcset="assets/destination/image-titan.webp" type="image/webp">
-      <img src="assets/destination/image-titan.png" alt="the moon titan">
-    </picture>
+  
     
     
-    
-    <div class="tab-list underline-indicators flex" role="tablist" aria-label="destination list">
-        <button aria-selected="true" role="tab" aria-controls="moon-tab" class="uppercase ff-sans-cond text-accent letter-spacing-2" tabindex="0" data-image="moon-image">Moon</button>
-        <button aria-selected="false" role="tab" aria-controls="mars-tab" class="uppercase ff-sans-cond text-accent letter-spacing-2" tabindex="-1" data-image="mars-image">Mars</button>
-        <button aria-selected="false" role="tab" aria-controls="europa-tab" class="uppercase ff-sans-cond text-accent letter-spacing-2" tabindex="-1" data-image="europa-image">Europa</button>
-        <button aria-selected="false" role="tab" aria-controls="titan-tab" class="uppercase ff-sans-cond text-accent letter-spacing-2" tabindex="-1" data-image="titan-image">Titan</button>
+    <div class="num-indicators flex flow fs-500">
+        <button aria-selected="true" class="text-white">1</button>
+        <button aria-selected="false" class="text-white">2</button>
+        <button aria-selected="false" class="text-white">3</button>
     </div>
 
     <!-- The moon -->

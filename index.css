@@ -431,6 +431,30 @@ select {
     background-color: hsl( var(--clr-white) / 1); 
 }
 
+.num-indicators {
+    flex-direction: column;
+    width: 3em;
+}
+
+.num-indicators > * {
+    aspect-ratio: 1;
+    border: 3px solid hsl( var(--clr-white) / .1);
+    border-radius: 50%;
+    background: 0;
+}
+
+.num-indicators > *:hover,
+.num-indicators > *:focus {
+    cursor: pointer;
+    border: 3px solid hsl( var(--clr-white) / .5);
+}
+
+.num-indicators > [aria-selected="true"] {
+    border: 3px solid hsl( var(--clr-white) / 1);
+    background: hsl( var(--clr-white));
+    color: hsl( var(--clr-dark) );
+}
+
 
 /* ----------------------------- */
 /* Page specific background      */
