@@ -637,9 +637,14 @@ body {
 
 .grid-container--technology > .num-indicators {
     grid-area: tabs;
+    width: 100%;
     flex-direction: row;
     align-items: end;
     justify-content: center;
+}
+
+.grid-container--technology > .num-indicators > * {
+    flex: 0 0 3em;
 }
 
 .technology-info {
@@ -736,6 +741,8 @@ body {
         flex-direction: column;
         align-items: unset;
         justify-content: unset;
+        width: 3em;
+        flex: auto;
     }
 
     .grid-container--technology > picture {
