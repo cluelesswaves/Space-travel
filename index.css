@@ -637,7 +637,6 @@ body {
 
 .grid-container--technology > .num-indicators {
     grid-area: tabs;
-    padding: 1em;
     flex-direction: row;
     align-items: end;
     justify-content: center;
