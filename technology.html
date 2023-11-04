@@ -42,25 +42,25 @@
       <source media="(min-width:45em)" srcset="assets/technology/image-launch-vehicle-portrait.jpg" type="image/jpeg">
       <img src="assets/technology/image-launch-vehicle-landscape.jpg" alt="launch vehicle">
     </picture>
-    <picture hidden id="space-capsule">
-        <source media="(min-width:45em)" srcset="assets/technology/image-space-capsule-portrait.jpg" type="image/jpeg">
-        <img src="assets/technology/image-space-capsule-landscape.jpg" alt="launch vehicle">
+    <picture hidden id="spaceport-image">
+        <source media="(min-width:45em)" srcset="assets/technology/image-spaceport-portrait.jpg" type="image/jpeg">
+        <img src="assets/technology/image-spaceport-landscape.jpg" alt="space port">
     </picture>
-    <picture hidden id="spaceport">
-        <source media="(min-width:45em)" srcset="assets/technology/image-lspaceport-portrait.jpg" type="image/jpeg">
-        <img src="assets/technology/image-lspaceport-landscape.jpg" alt="launch vehicle">
+    <picture hidden id="capsule-image">
+        <source media="(min-width:45em)" srcset="assets/technology/image-space-capsule-portrait.jpg" type="image/jpeg">
+        <img src="assets/technology/image-space-capsule-landscape.jpg" alt="space capsule">
     </picture>
   
     
     
-    <div class="num-indicators flex flow fs-500">
-        <button aria-selected="true" class="text-white">1</button>
-        <button aria-selected="false" class="text-white">2</button>
-        <button aria-selected="false" class="text-white">3</button>
+    <div class="num-indicators flex flow fs-500" role="tablist">
+        <button aria-selected="true" class="text-white" role="tab" aria-controls="vehicle-tab" tabindex="0" data-image="vehicle-image">1</button>
+        <button aria-selected="false" class="text-white" role="tab" aria-controls="spaceport-tab" tabindex="-1" data-image="spaceport-image">2</button>
+        <button aria-selected="false" class="text-white" role="tab" aria-controls="capsule-tab" tabindex="-1" data-image="capsule-image">3</button>
     </div>
 
     <!-- Vehicle -->
-    <article class="technology-info flow" id="moon-tab" tabindex="0" role="tabpanel">
+    <article class="technology-info flow" id="vehicle-tab" tabindex="0" role="tabpanel">
         <header class="flow flow--space-small">
             <p class="text-accent fs-500 ff-sans-cond uppercase letter-spacing-"1>The terminology...</p>
             <h2 class="fs-700 uppercase ff-serif">Launch vehicle</h2>
@@ -72,27 +72,27 @@
     </article>
     
     <!-- Spaceport -->
-    <article hidden class="technology-info flow" id="moon-tab" tabindex="0" role="tabpanel">
+    <article hidden class="technology-info flow" id="spaceport-tab" tabindex="0" role="tabpanel">
         <header class="flow flow--space-small">
             <p class="text-accent fs-500 ff-sans-cond uppercase letter-spacing-"1>The terminology...</p>
-            <h2 class="fs-700 uppercase ff-serif">Launch vehicle</h2>
+            <h2 class="fs-700 uppercase ff-serif">Spaceport</h2>
         </header>
-        <p>A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a 
-            payload from Earth's surface to space, usually to Earth orbit or beyond. Our 
-            WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, 
-            it's quite an awe-inspiring sight on the launch pad!</p>
+        <p>A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, 
+          by analogy to the seaport for ships or airport for aircraft. Based in the 
+          famous Cape Canaveral, our spaceport is ideally situated to take advantage 
+          of the Earth’s rotation for launch.</p>
     </article>
     
     <!-- Capsule -->
-    <article hidden class="technology-info flow" id="moon-tab" tabindex="0" role="tabpanel">
+    <article hidden class="technology-info flow" id="capsule-tab" tabindex="0" role="tabpanel">
         <header class="flow flow--space-small">
             <p class="text-accent fs-500 ff-sans-cond uppercase letter-spacing-"1>The terminology...</p>
-            <h2 class="fs-700 uppercase ff-serif">Launch vehicle</h2>
+            <h2 class="fs-700 uppercase ff-serif">Space capsule</h2>
         </header>
-        <p>A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a 
-            payload from Earth's surface to space, usually to Earth orbit or beyond. Our 
-            WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, 
-            it's quite an awe-inspiring sight on the launch pad!</p>
+        <p>A space capsule is an often-crewed spacecraft that uses a blunt-body reentry 
+          capsule to reenter the Earth's atmosphere without wings. Our capsule is where 
+          you'll spend your time during the flight. It includes a space gym, cinema, 
+          and plenty of other activities to keep you entertained.</p>
     </article>
   </main>
   
